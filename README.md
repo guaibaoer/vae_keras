@@ -6,6 +6,13 @@ Kingma D P, Welling M. Auto-Encoding Variational Bayes[J]. 2013.
 
 https://arxiv.org/abs/1312.6114
 
+### Requirements
+
+- Tensorflow 1.8
+- Keras 2.1.6
+- pydot 1.2.4
+- [graphviz](http://www.graphviz.org/)
+
 ### Reference
 
 - code
