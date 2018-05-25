@@ -114,5 +114,7 @@ if __name__ == '__main__':
     vae.fit(x_train,
             batch_size=config.batch_size,
             epochs=config.epochs,
-            validation_data=(x_test, None))
+            validation_data=(x_test, None),
+            verbose=2)
+
     vae.save_weights(os.path.join(OUT_PATH_PREFIX, 'vae_mlp_mnist.h5'))
