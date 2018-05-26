@@ -1,14 +1,14 @@
 """
 
 References:
-    code:
-        - https://github.com/keras-team/keras/blob/master/examples/variational_autoencoder.py
-        - https://github.com/bojone/vae/blob/master/vae_keras.py
     Paper:
         Kingma D P, Welling M. Auto-Encoding Variational Bayes[J]. 2013.
         https://arxiv.org/abs/1312.6114
     论文笔记：
         变分自编码器（一）：原来是这么一回事 - 科学空间|Scientific Spaces https://kexue.fm/archives/5253
+    code:
+        - https://github.com/keras-team/keras/blob/master/examples/variational_autoencoder.py
+        - https://github.com/bojone/vae/blob/master/vae_keras.py
 """
 
 from __future__ import absolute_import
