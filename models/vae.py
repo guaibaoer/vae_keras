@@ -35,7 +35,7 @@ class config:
     intermediate_dim = 512
     latent_dim = 2  # 隐变量取 2 维是为了方便之后作图
 
-    mse = True
+    mse = False
 
     # train
     batch_size = 128
